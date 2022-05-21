@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --highLightText: #d79fa4;
+    --whiteText: #c5b5b2;
+}
+.header__main {
+    background-image: url(./images/home_rec.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 1000px 1000px rgb(0 0 0 /.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.header__main h1{
+    color: var(--whiteText);
+    font-size: 2.8em;
+}
+.recipeLinks{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: solid black 10px;
+}
