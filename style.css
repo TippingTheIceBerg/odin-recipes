@@ -24,6 +24,52 @@
 }
 .recipeLinks{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    border: solid black 10px;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    text-align: center;
+    height: 515px;
+
+}
+.recipeLink{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 /.8);
+    transition: all .2s linear;
+}
+.recipeLink a{
+    font-size: 8em;
+    text-decoration: none;
+    font-family: 'Italianno', cursive;
+    font-weight: 900;
+    color: var(--whiteText);
+}
+.recipeLink:hover {
+    box-shadow: none;
+    color: black;
+}
+.recipeLink:hover a{
+    color:black;
+}
+.recipeLink__pizza{
+    background-image: url("./images/pizza_rec.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid black 1px;
+}
+.recipeLink__pasta{
+    background-image: url("./images/pasta_rec.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid black 1px;
+}
+.recipeLink__cereal{
+    background-image: url("./images/cereal_rec.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid black 1px;
 }
