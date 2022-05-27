@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Italianno', cursive;
+    background-color: var(--whiteBG);
+    line-height: 2;
+}
+:root{
+
+    --whiteText: #c5b5b2;
+    --whiteBg: rgb(245, 230, 230);
+    --highLightText: red;
+}
+.pizza__header{
+    background:url("./images/pizza_rec.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    box-shadow: inset 0 0 1000px 1000px rgb(0 0 0 /.8);
+    color: var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.pasta__header{
+    background:url("./images/pasta_rec.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    box-shadow: inset 0 0 1000px 1000px rgb(0 0 0 /.8);
+    color: var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;  
+}
+.cereal__header{
+    background:url("./images/cereal_rec.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 300px;
+    box-shadow: inset 0 0 1000px 1000px rgb(0 0 0 /.8);
+    color: var(--whiteText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; 
+}
+.recipeIntro__header{
+    text-align: center;
+}
+.recipeList__container{
+    text-align: center;
+    margin:30px 400px;
+}
+.recipeList__header{
+    border-bottom: dotted black 2px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.home__link{
+    font-weight: 800;
+    color: rgb(225, 57, 57);
+    font-size: 1.6em;
+}
+.recipeList, .recipeListOrder{
+    font-size: 1.6em;
+}
